@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 30px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.25s;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: #282696;
+  border: none;
+}
+
+.accent {
+   background: #312EB5;
+}
+
+.button:disabled {
+  background: #9b9ab9;
+}
